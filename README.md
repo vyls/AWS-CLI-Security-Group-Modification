@@ -1,4 +1,4 @@
-# AWS-Lab
+# AWS-CLI Add/Remove Multiple Security Group Ingress/Inbound Rule
 I create BASH and PowerShell script to add or remove AWS Security Group List  for Ingress/Inbound rule if we have multiple or many records. 
 
 This script just use simple looping process.
