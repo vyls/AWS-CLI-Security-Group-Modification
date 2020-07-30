@@ -1,3 +1,4 @@
+#Created by V. Y. Lindung S
 $whitelist = Get-Content ((Read-Host 'Enter Whitelist File'))
 foreach ($_ in $whitelist){
 $sgparam = $_.split()
