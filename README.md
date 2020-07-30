@@ -1,5 +1,6 @@
 # AWS-Lab
-I create BASH and PowerShell script to add or remove AWS Security Group List if we have multiple or many record. 
+I create BASH and PowerShell script to add or remove AWS Security Group List  for Ingress/Inbound rule if we have multiple or many records. 
+
 This script just use simple looping process.
 
 You can use this script after configure your AWS CLI parameter.
@@ -25,13 +26,29 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
 
 After that, you can use these script both on Linux via Bash Shell or Windows via PowerShell.
 
-Windows PowerShell Example:
+Windows PowerShell Example to Add AWS Ingress/Inbound Security Group:
 Open PowerShell > Go to your directory file that store whitelist_aws_security_group.ps1 script
 Execute whitelist_aws_security_group.ps1 then press Enter
-Type your whitelist file location
+Enter your whitelist file location
 Then powershell script will execute the command
 
-Linux Bash Shell Example:
+Windows PowerShell Example to Remove AWS Ingress/Inbound Security Group:
+Open PowerShell > Go to your directory file that store remove_aws_security_group.ps1 script
+Execute remove_aws_security_group.ps1 then press Enter
+Enter your whitelist file location
+Then powershell script will execute the command
+
+Linux Bash Shell Example to Add AWS Ingress/Inbound Security Group:
 Open terminal > Execute that bash script followed by whitelist file location
+ex: ./whitelist_aws_security_group.sh /home/lindung/whitelist.txt
+
+Linux Bash Shell Example to Remove AWS Ingress/Inbound Security Group:
+Open terminal > Execute that bash script followed by whitelist file location
+ex: ./remove_aws_security_group.sh /home/lindung/whitelist.txt
+
+Best regards,
+
+V. Y. Lindung S.
+
 
 
