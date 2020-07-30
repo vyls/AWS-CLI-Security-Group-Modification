@@ -32,6 +32,8 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
 
 After that, you can use these script both on Linux via Bash Shell or Windows via PowerShell.
 
+I attach the sample of whitelist.txt file, change that with your security group ID, port, and subnet/CIDR
+
 Windows PowerShell Example to Add AWS Ingress/Inbound Security Group:
 Open PowerShell > Go to your directory file that store whitelist_aws_security_group.ps1 script
 Execute whitelist_aws_security_group.ps1 then press Enter
