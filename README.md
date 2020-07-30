@@ -55,6 +55,7 @@ ex: ./remove_aws_security_group.sh /home/lindung/whitelist.txt
 
 
 
+
 Thank you!
 
 
