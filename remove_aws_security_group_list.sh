@@ -1,5 +1,5 @@
 #!/bin/bash
-#input="/var/www/html/whitelist_sg.txt" #change the directory of the list of subdomain and value
+#Created by V. Y. Lindung S.
 input=$1
 while IFS= read -r line
 do
